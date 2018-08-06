@@ -4,11 +4,11 @@ Distribution Comparison (`DistCompare`) is a toolset for visualizing comparison 
 
 This toolset contains functions that plot:
 
-1) two distributions side by side for comparison (`plot.comp.dist`), and
+1) two distributions side by side for comparison (`comp.dist.plot`), and
 
-2) Cliff's Delta effect size and the confidence interval (`plot.effsize.range`).
+2) Cliff's Delta effect size and the confidence interval (`effsize.range.plot`).
 
-For a complete list of functions, use `help(package = "distcomp")`
+For a complete list of functions, use `help(package = "distcompare")`
 
 ## Sample
 
