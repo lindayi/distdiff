@@ -6,7 +6,7 @@ This toolset contains functions that plot:
 
 1) two distributions side by side for comparison (`plot.comp.dist`), and
 
-2) Cliff's Delta effect size and the confident interval (`plot.effsize.range`).
+2) Cliff's Delta effect size and the confidence interval (`plot.effsize.range`).
 
 For a complete list of functions, use `help(package = "distcomp")`
 
