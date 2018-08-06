@@ -9,7 +9,7 @@ This toolset contains functions that plot:
 
 1) two distributions side by side for comparison (\code{\link{plot.comp.dist}}), and
 
-2) Cliff's Delta effect size and the confident interval (\code{\link{plot.effsize.range}}).
+2) Cliff's Delta effect size and the confidence interval (\code{\link{plot.effsize.range}}).
 
 For a complete list of functions, use \code{help(package = "distcomp")}
 }
