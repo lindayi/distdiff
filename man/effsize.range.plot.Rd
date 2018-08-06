@@ -1,11 +1,11 @@
-\name{plot.effsize.range}
-\alias{plot.effsize.range}
+\name{effsize.range.plot}
+\alias{effsize.range.plot}
 \title{Plotting Effect Size (Cliff's Delta) with Confidence Interval}
 \description{
 Plotting Effect Size (Cliff's Delta) with Confidence Interval.
 }
 \usage{
-plot.effsize.range(dist1, dist2, transparency = 150, col = viridis(4))
+effsize.range.plot(dist1, dist2, transparency = 150, col = viridis(4))
 }
 \arguments{
   \item{dist1}{the first distribution for comparison}
@@ -19,7 +19,7 @@ plot.effsize.range(dist1, dist2, transparency = 150, col = viridis(4))
 \examples{
 temp.dist1 = rnorm(100,1,2)
 temp.dist2 = rnorm(100,-1,2)
-plot.effsize.range(temp.dist1, temp.dist2)
+effsize.range.plot(temp.dist1, temp.dist2)
 }
 \author{
 Maintainer: Dayi Lin \url{http://lindayi.me}

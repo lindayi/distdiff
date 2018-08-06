@@ -2,7 +2,7 @@
 #library(magicaxis)
 #library(beanplot)
 
-plot.comp.dist <- function(dist1, dist2, legend1 = "Distribution 1", legend2 = "Distribution 2", legendpos = "topright", col1 = "#C8C8C8", col2 = "#646464", xlab = "", cut = TRUE, paired = FALSE, ...) {
+comp.dist.plot <- function(dist1, dist2, legend1 = "Distribution 1", legend2 = "Distribution 2", legendpos = "topright", col1 = "#C8C8C8", col2 = "#646464", xlab = "", cut = TRUE, paired = FALSE, ...) {
   if (cut) {
     cutmin = min(dist1, dist2)
     cutmax = max(dist1, dist2)

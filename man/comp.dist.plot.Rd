@@ -1,11 +1,11 @@
-\name{plot.comp.dist}
-\alias{plot.comp.dist}
+\name{comp.dist.plot}
+\alias{comp.dist.plot}
 \title{Plotting Two Distributions Side by Side for Comparison}
 \description{
 Plotting both distributions in one beanplot, and calculate the significance of difference between two distributions using Wilcoxon Rank Sum or Signed Rank Test.
 }
 \usage{
-plot.comp.dist(dist1, dist2,
+comp.dist.plot(dist1, dist2,
                legend1 = "Distribution 1",
                legend2 = "Distribution 2",
                legendpos = "topright",
@@ -34,13 +34,13 @@ temp.dist1 = rnorm(100,1,2)
 temp.dist2 = rnorm(100,-1,2)
 
 # Basic (by default unpaired)
-plot.comp.dist(temp.dist1, temp.dist2)
+comp.dist.plot(temp.dist1, temp.dist2)
 
 # Without cut
-plot.comp.dist(temp.dist1, temp.dist2, cut = FALSE)
+comp.dist.plot(temp.dist1, temp.dist2, cut = FALSE)
 
 # Paired test
-plot.comp.dist(temp.dist1, temp.dist2, paired = TRUE)
+comp.dist.plot(temp.dist1, temp.dist2, paired = TRUE)
 }
 \author{
 Maintainer: Dayi Lin \url{http://lindayi.me}

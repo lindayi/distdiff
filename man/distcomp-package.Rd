@@ -1,17 +1,17 @@
-\name{distcomp}
-\alias{distcomp}
+\name{distcompare}
+\alias{distcompare}
 \title{Distribution Comparison}
 \description{
-Distribution Comparison (DistComp) is a toolset for visualizing comparison between two distributions.
+Distribution Comparison (DistCompare) is a toolset for visualizing comparison between two distributions.
 }
 \details{
 This toolset contains functions that plot:
 
-1) two distributions side by side for comparison (\code{\link{plot.comp.dist}}), and
+1) two distributions side by side for comparison (\code{\link{comp.dist.plot}}), and
 
-2) Cliff's Delta effect size and the confidence interval (\code{\link{plot.effsize.range}}).
+2) Cliff's Delta effect size and the confidence interval (\code{\link{effsize.range.plot}}).
 
-For a complete list of functions, use \code{help(package = "distcomp")}
+For a complete list of functions, use \code{help(package = "distcompare")}
 }
 \author{
 Maintainer: Dayi Lin \url{http://lindayi.me}

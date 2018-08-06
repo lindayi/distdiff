@@ -1,1 +1,8 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "col2rgb", "rgb")
+importFrom("graphics", "axis", "box", "boxplot", "legend", "mtext")
+importFrom("stats", "wilcox.test")
+importFrom("beanplot", "beanplot")
+importFrom("effsize", "cliff.delta")
+importFrom("magicaxis", "magaxis")
+importFrom("viridis", "viridis")

@@ -1,7 +1,7 @@
 #library(viridis)
 #library(effsize)
 
-plot.effsize.range <- function(dist1, dist2, transparency = 150, col = viridis(4)) {
+effsize.range.plot <- function(dist1, dist2, transparency = 150, col = viridis(4)) {
   low = as.double(cliff.delta(dist1, dist2)[[2]][1])
   dot = as.double(cliff.delta(dist1, dist2)[[1]][1])
   high = as.double(cliff.delta(dist1, dist2)[[2]][2])

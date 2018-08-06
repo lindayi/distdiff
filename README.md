@@ -1,6 +1,6 @@
 # Distribution Comparison
 
-Distribution Comparison (`DistComp`) is a toolset for visualizing comparison between two distributions.
+Distribution Comparison (`DistCompare`) is a toolset for visualizing comparison between two distributions.
 
 This toolset contains functions that plot:
 

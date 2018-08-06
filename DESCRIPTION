@@ -1,12 +1,12 @@
-Package: distcomp
+Package: distcompare
 Type: Package
 Title: Distribution Comparison
 Version: 0.1.0
 Date: 2018-08-05
 Author: Dayi Lin
 Maintainer: Dayi Lin <dayi.lin@cs.queensu.ca>
-Depends: sm, magicaxis, beanplot, viridis, effsize
-Description: DistComp is a toolset for comparing distributions. This toolset contains functions that plot 1) two distributions side by side for comparison, and 2) Cliff's Delta effect size and the confidence interval.
+Depends: magicaxis, beanplot, viridis, effsize
+Description: DistCompare is a toolset for comparing distributions. This toolset contains functions that plot 1) two distributions side by side for comparison, and 2) Cliff's Delta effect size and the confidence interval.
 License: Apache License 2.0
 Encoding: UTF-8
 LazyData: true
