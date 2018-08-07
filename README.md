@@ -10,6 +10,22 @@ This toolset contains functions that plot:
 
 For a complete list of functions, use `help(package = "distcompare")`
 
+## Install
+
+**Install DistCompare from CRAN (Recommended)**
+
+Currently pending CRAN review
+
+
+**Install DistCompare from Github**
+```
+install.packages("devtools")  # if you haven't install devtools
+
+library(devtools)
+
+install_github("lindayi/distcomp")
+```
+
 ## Sample
 
 ![An example of the visualization using this package](https://www.researchgate.net/profile/Dayi_Lin/publication/317570653/figure/fig12/AS:505247923949568@1497471900201/Distribution-of-the-positive-review-rate-during-and-after-leaving-the-early-access-stage.png)
