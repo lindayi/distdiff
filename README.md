@@ -19,7 +19,7 @@ Currently pending CRAN review
 
 **Install DistCompare from Github**
 ```
-install.packages("devtools")  # if you haven't install devtools
+install.packages("devtools")  # if you haven't installed devtools
 
 library(devtools)
 
