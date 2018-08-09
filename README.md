@@ -12,11 +12,6 @@ For a complete list of functions, use `help(package = "distcompare")`
 
 ## Install
 
-**Install DistCompare from CRAN (Recommended)**
-
-Currently pending CRAN review
-
-
 **Install DistCompare from Github**
 ```
 install.packages("devtools")  # if you haven't installed devtools
