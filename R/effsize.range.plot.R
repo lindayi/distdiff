@@ -1,11 +1,11 @@
 #library(viridis)
 #library(effsize)
 
-effsize.range.plot <- function(dist1, dist2, transparency = 150, col = viridis(4)) {
+effsize.range.plot <- function(dist1, dist2, threshold = c(0.147, 0.330, 0.474), transparency = 150, col = viridis(4)) {
   low = as.double(cliff.delta(dist1, dist2)[[2]][1])
   dot = as.double(cliff.delta(dist1, dist2)[[1]][1])
   high = as.double(cliff.delta(dist1, dist2)[[2]][2])
-  print(cliff.delta(dist1, dist2))
+
   #note: always pass alpha on the 0-255 scale
   makeTransparent<-function(someColor, alpha=100)
   {
@@ -33,37 +33,37 @@ effsize.range.plot <- function(dist1, dist2, transparency = 150, col = viridis(4
   )
 
   boxplot(
-    c(-1, -0.474),
+    c(-1, -threshold[3]),
     staplecol = colorscheme[1], staplewex = 1, boxcol = colorscheme[1], col = colorscheme[1],
     range = 0, add = TRUE, horizontal = TRUE, axes = FALSE, at = 1, boxwex = 0.5, boxlty = 1, medlty = 0
   )
   boxplot(
-    c(1, 0.474),
+    c(1, threshold[3]),
     staplecol = colorscheme[1], staplewex = 1, boxcol = colorscheme[1], col = colorscheme[1],
     range = 0, add = TRUE, horizontal = TRUE, axes = FALSE, at = 1, boxwex = 0.5, boxlty = 1, medlty = 0
   )
   boxplot(
-    c(-0.474, -0.330),
+    c(-threshold[3], -threshold[2]),
     staplecol = colorscheme[2], staplewex = 1, boxcol = colorscheme[2], col = colorscheme[2],
     range = 0, add = TRUE, horizontal = TRUE, axes = FALSE, at = 1, boxwex = 0.5, boxlty = 1, medlty = 0
   )
   boxplot(
-    c(0.474, 0.330),
+    c(threshold[3], threshold[2]),
     staplecol = colorscheme[2], staplewex = 1, boxcol = colorscheme[2], col = colorscheme[2],
     range = 0, add = TRUE, horizontal = TRUE, axes = FALSE, at = 1, boxwex = 0.5, boxlty = 1, medlty = 0
   )
   boxplot(
-    c(-0.330, -0.147),
+    c(-threshold[2], -threshold[1]),
     staplecol = colorscheme[3], staplewex = 1, boxcol = colorscheme[3], col = colorscheme[3],
     range = 0, add = TRUE, horizontal = TRUE, axes = FALSE, at = 1, boxwex = 0.5, boxlty = 1, medlty = 0
   )
   boxplot(
-    c(0.330, 0.147),
+    c(threshold[2], threshold[1]),
     staplecol = colorscheme[3], staplewex = 1, boxcol = colorscheme[3], col = colorscheme[3],
     range = 0, add = TRUE, horizontal = TRUE, axes = FALSE, at = 1, boxwex = 0.5, boxlty = 1, medlty = 0
   )
   boxplot(
-    c(-0.147, 0.147),
+    c(-threshold[1], threshold[1]),
     staplecol = colorscheme[4], staplewex = 1, boxcol = colorscheme[4], col = colorscheme[4],
     range = 0, add = TRUE, horizontal = TRUE, axes = FALSE, at = 1, boxwex = 0.5, boxlty = 1, medlty = 0
   )

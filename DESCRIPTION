@@ -1,12 +1,12 @@
-Package: distcompare
+Package: distdiff
 Type: Package
-Title: Distribution Comparison
-Version: 0.1.0
+Title: Plotting Distribution Differences
+Version: 0.2.0
 Date: 2018-08-05
 Author: Dayi Lin
 Maintainer: Dayi Lin <dayi.lin@cs.queensu.ca>
 Depends: magicaxis, beanplot, viridis, effsize
-Description: DistCompare is a toolset for comparing distributions. This toolset contains functions that plot 1) two distributions side by side for comparison, and 2) Cliff's Delta effect size and the confidence interval.
+Description: DistDiff is a set of functions for visualizing differences between two distributions. This package contains functions that plot 1) two distributions side by side for comparison, with automatically logged axis when necessary, and returns Wilcoxon tests results, and 2) Cliff's Delta effect size and the confidence interval.
 License: Apache License 2.0
 Encoding: UTF-8
 LazyData: true

@@ -1,13 +1,13 @@
-\name{distcompare}
-\alias{distcompare}
-\title{Distribution Comparison}
+\name{distdiff}
+\alias{distdiff}
+\title{Plotting Distribution Differences}
 \description{
-Distribution Comparison (DistCompare) is a toolset for visualizing comparison between two distributions.
+DistDiff is a set of functions for visualizing differences between two distributions.
 }
 \details{
-This toolset contains functions that plot:
+This package contains functions that plot:
 
-1) two distributions side by side for comparison (\code{\link{comp.dist.plot}}), and
+1) two distributions side by side for comparison, with automatically logged axis when necessary, and returns Wilcoxon tests results (\code{\link{comp.dist.plot}}), and
 
 2) Cliff's Delta effect size and the confidence interval (\code{\link{effsize.range.plot}}).
 

@@ -46,6 +46,8 @@ comp.dist.plot(temp.dist1, temp.dist2, paired = TRUE)
 Maintainer: Dayi Lin \url{http://lindayi.me}
 }
 \references{
+David F. Bauer (1972), Constructing confidence sets using rank statistics. Journal of the American Statistical Association 67, 687–690.
+
 Please consider citing the following paper when using this package and the visualization style of effect size:
 
 Lin, D., Bezemer, C. P., & Hassan, A. E. (2018). \href{https://www.researchgate.net/publication/317570653_An_Empirical_Study_of_Early_Access_Games_on_the_Steam_Platform}{An empirical study of early access games on the Steam platform}. Empirical Software Engineering, 23(2), 771-799.
