@@ -1,8 +1,8 @@
-# Distribution Comparison
+# Plotting Distribution Differences
 
-Distribution Comparison (`DistCompare`) is a toolset for visualizing comparison between two distributions.
+`DistDiff` is a set of functions for visualizing differences between two distributions.
 
-This toolset contains functions that plot:
+This package contains functions that plot:
 
 1) two distributions side by side for comparison, with automatically logged axis when necessary, and returns Wilcoxon tests results (`comp.dist.plot`);
 
