@@ -25,6 +25,12 @@ install_github("lindayi/distcomp")
 
 ![An example of the visualization using this package](https://www.researchgate.net/profile/Dayi_Lin/publication/317570653/figure/fig7/AS:505247143809024@1497471714173/Distribution-of-the-update-frequency-measured-as-the-median-number-of-days-between.png)
 
+## Next Step
+
+- Support for Cohen's d and Hedges' g for effect size
+
+- Support for customize thresholds for effect size
+
 ## References
 Please consider citing the following paper when using this package and the visualization style of effect size:
 
