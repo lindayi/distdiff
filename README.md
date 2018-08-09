@@ -29,7 +29,7 @@ install_github("lindayi/distcomp")
 
 - Support for Cohen's d and Hedges' g for effect size
 
-- Support for customize thresholds for effect size
+- Support for customizing thresholds for effect size
 
 ## References
 Please consider citing the following paper when using this package and the visualization style of effect size:
