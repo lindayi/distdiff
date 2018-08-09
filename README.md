@@ -4,7 +4,7 @@ Distribution Comparison (`DistCompare`) is a toolset for visualizing comparison 
 
 This toolset contains functions that plot:
 
-1) two distributions side by side for comparison (`comp.dist.plot`), and
+1) two distributions side by side for comparison, with automatically logged axis when necessary, and returns Wilcoxon tests results (`comp.dist.plot`);
 
 2) Cliff's Delta effect size and the confidence interval (`effsize.range.plot`).
 
@@ -23,7 +23,7 @@ install_github("lindayi/distcomp")
 
 ## Sample
 
-![An example of the visualization using this package](https://www.researchgate.net/profile/Dayi_Lin/publication/317570653/figure/fig12/AS:505247923949568@1497471900201/Distribution-of-the-positive-review-rate-during-and-after-leaving-the-early-access-stage.png)
+![An example of the visualization using this package](https://www.researchgate.net/profile/Dayi_Lin/publication/317570653/figure/fig7/AS:505247143809024@1497471714173/Distribution-of-the-update-frequency-measured-as-the-median-number-of-days-between.png)
 
 ## References
 Please consider citing the following paper when using this package and the visualization style of effect size:
