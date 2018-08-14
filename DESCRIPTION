@@ -1,7 +1,7 @@
 Package: distdiff
 Type: Package
 Title: Plotting Distribution Differences
-Version: 0.2.0
+Version: 0.2.1
 Date: 2018-08-05
 Author: Dayi Lin
 Maintainer: Dayi Lin <dayi.lin@cs.queensu.ca>

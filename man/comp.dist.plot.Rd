@@ -2,7 +2,7 @@
 \alias{comp.dist.plot}
 \title{Plotting Two Distributions Side by Side for Comparison}
 \description{
-Plotting both distributions in one beanplot, and calculate the significance of difference between two distributions using Wilcoxon Rank Sum or Signed Rank Test.
+Plotting both distributions in one beanplot, and calculate the significance of difference between two distributions using Wilcoxon Rank Sum or Signed Rank Test. The verticle line shows the median values of the distributions. Use \code{log = "x"} to force logging the x-axis.
 }
 \usage{
 comp.dist.plot(dist1, dist2,
@@ -11,7 +11,8 @@ comp.dist.plot(dist1, dist2,
                legendpos = "topright",
                col1 = "#C8C8C8", col2 = "#646464",
                xlab = "", cut = TRUE,
-               paired = FALSE, ...)
+               paired = FALSE,
+               ...)
 }
 \arguments{
   \item{dist1}{the first distribution for comparison}
