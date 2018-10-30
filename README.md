@@ -8,7 +8,7 @@ This package contains functions that plot:
 
 2) Cliff's Delta effect size and the confidence interval (`effsize.range.plot`).
 
-For a complete list of functions, use `help(package = "distcompare")`
+For a complete list of functions, use `help(package = "distdiff")`
 
 ## Install
 
