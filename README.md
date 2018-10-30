@@ -18,7 +18,7 @@ install.packages("devtools")  # if you haven't installed devtools
 
 library(devtools)
 
-install_github("lindayi/distcomp")
+install_github("lindayi/distdiff")
 ```
 
 ## Sample
